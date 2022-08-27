@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title>Github</title>
+<style>
+    .github{
+        background-color: rgb(81, 84, 111);
+       height: 50px;
+      /* width: 1580px; */
+      background-color: aquamarine;
+      border-radius: 2px solid black;
+      margin-top: 20px;
+    } 
+    .fa{
+           color: red;   
+         }
+       
+       .container{
+        display: grid;
+       
+        /* width: 10000px; */
+       background-color: red;
+        grid-template-columns:150px auto ;
+
+        
+        
+
+       }
+       .col-2
+       {
+        padding: 100px;
+        width: 300px;
+        height: 500px;
+        border-radius:10px ;
+        margin: 10px;
+       }
+       /* .col-2{
+        margin: 20px;
+        border-radius: 10px;
+       } */
+       .p-1 
+    {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        margin-top: 20px;
+       margin: 20px;
+       padding: 30px;
+    }
+    .row-1 input{
+       width: 500px;
+       border-radius: 20px;
+       background-color: rgb(86, 81, 81);
+    }
+    .row-3{
+        border-radius: 10px;
+        height: 200px;
+        width: 500px;
+        background-color: black;
+    }
+
+</style>
+</head>
+<body>
+    <div class="github">
+        <nav class="navbar background-color: dark">
+            <div class="container-fluid d-flex justify-content-center">
+                <i class="fa fa-github color:red" aria-hidden="true" height="30" width="30"></i>
+                <p class="navbar-brand text-white m-auto"></i>Github</p>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="col-2 bg-dark">1</div>
+            <div class="col-2">
+                <div class="row-1"><input type="text" name="search" id="input" placeholder="search"></div>
+                <div class="d-flex flex-row mb-3">
+                    <div class="p-1 bg-dark">a</div>
+                    <div class="p-1 bg-dark">b</div>
+                    <div class="p-1 bg-dark">c</div>
+                </div>
+                <div class="row-3 bg-dark"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
